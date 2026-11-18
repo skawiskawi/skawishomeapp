@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Portfolio - Paweł Skawicki</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-layout">
+    <header class="app-header">
+      <h1>Paweł Skawicki</h1>
+      <span class="subtitle">Android & Web Developer</span>
+    </header>
+
+    <div class="content-grid">
+      <section id="spotify-module" class="module">
+        <h2>Aktualnie słucham</h2>
+        <div id="spotify-data" class="data-container">
+          <span>Trwa ładowanie danych ze Spotify...</span>
+        </div>
+      </section>
+
+      <section id="fortnite-module" class="module">
+        <h2>Statystyki Fortnite</h2>
+        <div id="fortnite-data" class="data-container">
+          <span>Trwa synchronizacja statystyk...</span>
+        </div>
+      </section>
+
+      <section id="links-module" class="module">
+        <h2>Szybkie linki</h2>
+        <div class="button-group">
+          <button id="action-github" class="action-btn" type="button">Profil GitHub</button>
+          <button id="action-telegram" class="action-btn" type="button">Kontakt Telegram</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
