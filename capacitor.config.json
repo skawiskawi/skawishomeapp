@@ -1,6 +1,6 @@
 {
   "appId": "com.example.skawishomeapp",
   "appName": "SkawisHomeApp",
-  "webDir": ".",
+  "webDir": "www",
   "bundledWebRuntime": false
 }

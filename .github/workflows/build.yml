@@ -18,6 +18,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: Przygotowanie folderu www
+        run: |
+          mkdir www
+          cp index.html style.css app.js config.js www/
+
       - name: Instalacja Capacitora
         run: npm install
 
